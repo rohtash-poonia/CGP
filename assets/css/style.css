@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inder&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+.container {
+    padding: 0 12px !important;
+}
+
+h1 {
+    margin: 0px !important;
+}
+
+p {
+    margin: 0px !important;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+nav {
+    background: url(/assets/images/png/black-silver-navbg-waves.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 594px */
+}
+
+.navbar {
+    padding-top: 54px !important;
+    flex-wrap: nowrap;
+}
+
+.nav-main {
+    max-width: 789px;
+    display: flex;
+    gap: 64px !important;
+}
+
+.nav-links {
+    max-width: 410px;
+
+}
+
+.nav-links a {
+    position: relative;
+}
+
+.nav-social-main {
+    max-width: 330px;
+}
+
+.nav-button {
+    max-width: 274px;
+    padding-inline: 22px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 45px;
+}
+
+.bars {
+    fill: white !important;
+    display: none;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+
+.offcanvas-body {
+    background-color: black;
+}
+
+.nav-social {
+    max-width: 105px !important;
+    gap: 15px !important;
+}
+
+.nav-social img {
+    max-width: 25px;
+}
+
+/* hero section starts here */
+
+.hero-main {
+    padding-top: 156px !important;
+    padding-bottom: 138px !important;
+}
+
+.hero-main p {
+    padding-top: 27px;
+}
+
+/* popular section starts here */
+.popular-sec {
+    background: url(/assets/images/png/popular-sec-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content !important;
+}
+
+.popular-main-heading {
+    padding-top: 57px;
+}
+
+.popular-sec-card {
+    max-width: 348px !important;
+    border-radius: 16px !important;
+    background-color: rgb(71, 92, 131, 0.55);
+    padding-block: 24px;
+    padding-left: 13px;
+}
+
+.popular-sec-card img {
+    max-width: 32px;
+    width: 100%;
+}
+
+.popular-sec-card h3 {
+    max-width: 174px;
+    width: 100%;
+}
+
+.popular-sec-card p {
+    max-width: 291px;
+    width: 100%;
+}
+
+.popular-forth-card {
+    max-width: 194px !important;
+    width: 100% !important;
+}
+
+.popular-fifth-card {
+    max-width: 243px !important;
+}
+
+.popular-sixth-card {
+    max-width: 263px !important;
+}
+
+.all-popular-cards {
+    padding-block: 68px;
+}
+
+.popular-forth-text {
+    max-width: 326px !important;
+}
+
+.popular-sixth-text {
+    max-width: 311px !important;
+}
+
+/* learn to build section starts */
+.learn-to-build-sec {
+    background: url(/assets/images/png/learn-to-build-sec-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content !important;
+}
+
+.learn-sec-heading {
+    padding-top: 42px;
+}
+
+
+.learn-card-main {
+    padding-top: 43px;
+    padding-bottom: 59px;
+}
+
+.learn-card {
+    max-width: 348px;
+    background-color: black;
+    border-radius: 16px;
+}
+
+.learn-card p {
+    padding-block: 24px;
+    padding-left: 11px;
+}
+
+.learn-card-top {
+    padding-top: 28px;
+    padding-left: 13px;
+}
+
+.learn-card img {
+    width: 32px;
+    height: 32px;
+}
+
+/* api section starts here */
+.api-sec {
+    background: url(/assets/images/png/api-section-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content !important;
+}
+
+.api-sec h2 {
+    padding-top: 56px;
+    padding-bottom: 24px;
+}
+
+.icon-outer {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    padding: 9px;
+}
+
+.api-icon {
+    height: 45px;
+    width: 45px;
+}
+
+.api-second-row {
+    max-width: 789px !important;
+    margin-top: 44px !important;
+    gap: 89px !important;
+    flex-wrap: wrap !important;
+    padding-bottom: 75px !important;
+}
+
+.api-first-row {
+    max-width: 789px !important;
+    margin-top: 54px !important;
+    gap: 89px !important;
+    flex-wrap: wrap !important;
+}
+
+@media (max-width:992px) {
+    .nav-links {
+        display: none !important;
+    }
+
+    .bars {
+        display: block !important;
+    }
+
+    .hero-main {
+        padding-top: 135px !important;
+        padding-bottom: 95px !important;
+    }
+
+    .popular-forth-card {
+        font-size: 16px !important;
+    }
+
+    .popular-fifth-card {
+        font-size: 16px !important;
+    }
+
+    .popular-sixth-card {
+        font-size: 16px !important;
+    }
+}
+
+
+@media (max-width:768px) {
+    .nav-main {
+        justify-content: center !important;
+        gap: 20px;
+    }
+
+    .navbar {
+        padding-top: 40px !important;
+    }
+
+    .hero-main {
+        padding-top: 80px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .hero-button {
+        margin-top: 30px !important;
+    }
+
+    .hero-main p {
+        padding-top: 15px !important;
+    }
+
+    .api-sec h2 {
+        padding-top: 36px;
+        padding-bottom: 17px;
+    }
+
+    .api-second-row {
+        padding-top: 88px !important;
+    }
+
+}
+
+@media (max-width:576px) {
+    .nav-social-main {
+        display: none !important;
+    }
+
+    .navbar {
+        padding-top: 20px !important;
+    }
+
+    .hero-main {
+        padding-top: 40px !important;
+        padding-bottom: 25px !important;
+    }
+
+    .hero-button {
+        margin-top: 20px !important;
+        max-width: 100px !important;
+        width: 100% !important;
+        height: 30px !important;
+    }
+
+    .hero-main p {
+        padding-top: 10px !important;
+    }
+
+    .popular-main-heading {
+        padding-top: 20px;
+    }
+
+    .all-popular-cards {
+        padding-block: 12px !important;
+    }
+
+    .learn-card-main {
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    .api-sec p {
+        font-size: 12px;
+    }
+
+    .api-sec h2 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .api-second-row {
+        padding-bottom: 30px !important;
+    }
+
+    .api-second-row {
+        margin-top: 20px !important;
+    }
+}
