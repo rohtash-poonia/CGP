@@ -18,6 +18,15 @@ p {
     margin: 0px !important;
 }
 
+h2 {
+    margin: 0px !important;
+}
+
+h3 {
+    margin: 0px !important;
+}
+
+
 body {
     font-family: var(--font-family);
 }
@@ -27,7 +36,7 @@ nav {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* height: 594px */
+
 }
 
 .navbar {
@@ -77,6 +86,7 @@ nav {
 .nav-social {
     max-width: 105px !important;
     gap: 15px !important;
+    cursor: pointer;
 }
 
 .nav-social img {
@@ -113,6 +123,7 @@ nav {
     background-color: rgb(71, 92, 131, 0.55);
     padding-block: 24px;
     padding-left: 13px;
+    cursor: pointer;
 }
 
 .popular-sec-card img {
@@ -158,7 +169,7 @@ nav {
 /* learn to build section starts */
 .learn-to-build-sec {
     background: url(/assets/images/png/learn-to-build-sec-bg.png);
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
     background-repeat: no-repeat;
     height: fit-content !important;
@@ -168,26 +179,27 @@ nav {
     padding-top: 42px;
 }
 
-
 .learn-card-main {
-    padding-top: 43px;
-    padding-bottom: 59px;
+    padding-top: 43px !important;
+    padding-bottom: 59px !important;
 }
 
 .learn-card {
     max-width: 348px;
     background-color: black;
     border-radius: 16px;
+    border: 1px solid #313131;
+    cursor: pointer;
 }
 
 .learn-card p {
-    padding-block: 24px;
+    padding-block: 24px !important;
     padding-left: 11px;
 }
 
 .learn-card-top {
-    padding-top: 28px;
-    padding-left: 13px;
+    padding-top: 28px !important;
+    padding-left: 13px !important;
 }
 
 .learn-card img {
@@ -221,6 +233,7 @@ nav {
 .api-icon {
     height: 45px;
     width: 45px;
+    cursor: pointer;
 }
 
 .api-second-row {
@@ -237,6 +250,156 @@ nav {
     gap: 89px !important;
     flex-wrap: wrap !important;
 }
+
+/* case api section */
+.case-api-sec {
+    background: url(/assets/images/png/case-api-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content !important;
+}
+
+.case-api-card {
+    max-width: 348px;
+    width: 100%;
+    height: 147px;
+    border-radius: 16px;
+    background-color: black;
+    padding-left: 11px !important;
+    border: 1px solid #313131;
+    cursor: pointer;
+}
+
+.row {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    /* padding: 0px !important;
+    margin: 0px !important; */
+}
+
+.case-api-cards {
+    padding-top: 46px;
+}
+
+.case-api-card img {
+    height: 32px;
+    width: 32px;
+}
+
+.case-api-card-main {
+    padding-top: 27px
+}
+
+.case-api-card-main p {
+    padding-bottom: 23px;
+    padding-top: 31px !important;
+}
+
+.case-api-middle-heading {
+    padding-top: 58px;
+}
+
+.icons-first-line {
+    flex-wrap: wrap;
+    gap: 40px !important;
+    padding-top: 49px !important;
+
+}
+
+.icons-second-line {
+    flex-wrap: wrap;
+    gap: 40px !important;
+    padding-bottom: 65px;
+}
+
+.api-icons-main {
+    gap: 40px !important;
+}
+
+.api-icons-main img {
+    cursor: pointer;
+}
+
+/* community section starts here */
+.community-sec {
+    background: url(/assets/images/png/community-sec-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content !important;
+    /* height: 355px; */
+}
+
+.community-sec P {
+    padding-top: 38PX;
+}
+
+.community-social-icons {
+    gap: 15px !important;
+    max-width: 105px;
+    width: 100%;
+    padding-bottom: 40px !important;
+    padding-top: 45px !important;
+}
+
+.community-social-icons img {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+/* footer */
+/* body {
+    background-color: #000;
+} */
+
+footer {
+    background-color: #000;
+    padding-top: 81px;
+    padding-bottom: 45px;
+
+}
+
+.footer-logo {
+    font-size: 26px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.footer-logo-image {
+    max-width: 109px !important;
+    width: 100%;
+}
+
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+
+.footer-bottom {
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #939393;
+}
+
+
 
 @media (max-width:992px) {
     .nav-links {
@@ -264,7 +427,6 @@ nav {
         font-size: 16px !important;
     }
 }
-
 
 @media (max-width:768px) {
     .nav-main {
@@ -298,6 +460,41 @@ nav {
         padding-top: 88px !important;
     }
 
+    .learn-card {
+        max-width: none !important;
+    }
+
+    .case-api-middle-heading {
+        padding-top: 35px;
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+
+    .footer-logo img {
+        width: 30px;
+    }
+
+    .social-icons {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .footer-column {
+        text-align: center;
+    }
+
+    .footer-logo-image {
+        max-width: 109px !important;
+        width: 100% !important;
+    }
+
+    .footer-icons {
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+    }
 }
 
 @media (max-width:576px) {
@@ -334,8 +531,8 @@ nav {
     }
 
     .learn-card-main {
-        padding-top: 15px;
-        padding-bottom: 25px;
+        padding-top: 15px !important;
+        padding-bottom: 25px !important;
     }
 
     .api-sec p {
@@ -354,4 +551,31 @@ nav {
     .api-second-row {
         margin-top: 20px !important;
     }
+
+    .popular-sec-card {
+        max-width: none !important;
+    }
+
+    .case-api-card {
+        max-width: none !important;
+    }
+
+    .case-api-middle-heading {
+        padding-top: 28px;
+    }
+
+    .footer-logo-image {
+        width: 109px !important;
+        width: 100% !important;
+    }
+
+    .api-first-row {
+        gap: 38px !important;
+    }
+
+    .api-second-row {
+        gap: 30px !important;
+        padding-top: 40px !important;
+    }
+
 }

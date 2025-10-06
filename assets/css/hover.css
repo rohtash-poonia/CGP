@@ -24,10 +24,9 @@
 }
 
 .nav-button:hover {
-    background-color: black;
+    background-color: #36BEFF;
     font-weight: 700;
-    border: 1px solid #36BEFF;
-    transform: scale(1.08);
+    border: 2px solid white;
 }
 
 /* hero button */
@@ -88,4 +87,53 @@
 .learn-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 15px rgba(235, 228, 228, 0.3);
+}
+
+.case-api-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(235, 228, 228, 0.3);
+}
+
+.community-social-icons img:hover {
+    transform: scale(1.6);
+
+}
+
+/* .icon-outer:hover {
+    transform: scale(1.2);
+} */
+
+/* Hover underline animation */
+.footer-icons:hover {
+    transform: scale(1.6);
+}
+
+.footer-column ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background-color: #36BEFF;
+    transition: width 0.3s ease;
+}
+
+.footer-column ul li a:hover::after {
+    width: 100%;
+}
+
+.footer-column ul li a:hover {
+    color: #36BEFF;
+}
+
+.social-icons a {
+    color: #bbb;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: color 0.2s ease;
+}
+
+.social-icons a:hover {
+    color: #fff;
 }
