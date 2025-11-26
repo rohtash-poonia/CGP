@@ -14,19 +14,14 @@
     width: 100%;
 }
 
-.nav-item:hover {
-    font-weight: 700;
-}
-
 .nav-social img:hover {
     transform: scale(1.4);
-
 }
 
 .nav-button:hover {
     background-color: #36BEFF;
-    font-weight: 700;
-    border: 2px solid white;
+    /* font-weight: 700; */
+    /* border: 2px solid white; */
 }
 
 /* hero button */
@@ -125,6 +120,11 @@
 
 .footer-column ul li a:hover {
     color: #36BEFF;
+    text-decoration: none !important;
+}
+
+.footer-column ul li a {
+    text-decoration: underline !important;
 }
 
 .social-icons a {
@@ -136,4 +136,8 @@
 
 .social-icons a:hover {
     color: #fff;
+}
+
+nav a {
+    text-decoration: none !important;
 }
